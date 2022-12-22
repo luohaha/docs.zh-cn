@@ -7,12 +7,12 @@
 ## 语法
 
 ```Haskell
-DATETIME years_add(DATETIME expr1,INT expr2);
+DATETIME years_add(DATETIME|DATE expr1,INT expr2);
 ```
 
 ## 参数说明
 
-`expr1`: 支持的数据类型为 DATETIME。
+`expr1`: 支持的数据类型为 DATETIME 或 DATE。
 
 `expr2`: 支持的数据类型为 INT，单位为年。
 
